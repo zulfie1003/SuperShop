@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - FitFreaks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Fjalla+One&family=Noto+Serif+Oriya:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main_header">
+    <div class="main_container">
+    <div class="top_navbar">
+        <div class="brand_logo">
+           <a href="index.html"><img src="Assets/logo.png" width="125px"></a>
+        </div>
+        <div class="nav_items">
+            <div class="nav_menu">
+                <ul id="menu_items">
+                    <li><a href="index.html" class="menu_link">Home</a></li>
+                    <li><a href="products.html" class="menu_link">Products</a></li>
+                    <li><a href="about.html" class="menu_link">About</a></li>
+                    <li><a href="contact.html" class="menu_link">Contact</a></li>
+                    <li><a href="account.html" class="menu_link">Account</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <a href="cart.html"><img src="Assets/cart.png" height="30px" width="30px"></a>
+        <img src="Assets/hamburger_menu_navbar_options_icon_196495.png" height="30px" width="30px" class="mobile_menu" onclick="menutoggle()">
+    </div>
+    <div class="about_section">
+        <div class="about_hero">
+            <h1 class="hero_title">About FitFreaks</h1>
+            <p class="hero_subtitle">Empowering Fitness, Redefining Style</p>
+            <div class="hero_stats">
+                <div class="stat_item">
+                    <span class="stat_number">10K+</span>
+                    <span class="stat_label">Happy Customers</span>
+                </div>
+                <div class="stat_item">
+                    <span class="stat_number">500+</span>
+                    <span class="stat_label">Products</span>
+                </div>
+                <div class="stat_item">
+                    <span class="stat_number">50+</span>
+                    <span class="stat_label">Cities</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mission_section">
+            <h2 class="section_title">Our Mission</h2>
+            <div class="mission_content">
+                <p class="mission_text">At FitFreaks, we're not just selling fitness products – we're creating a movement. Our mission is to revolutionize the way people think about fitness and fashion, making it accessible, enjoyable, and empowering for everyone.</p>
+                <p class="mission_text">We believe that fitness is more than just exercise; it's a lifestyle that should be celebrated and expressed through style. Every product we offer is carefully curated to help you look and feel your best, whether you're hitting the gym, running a marathon, or simply embracing an active lifestyle.</p>
+                <div class="mission_quote">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"Fitness is not about being better than someone else. It's about being better than you used to be."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="values_section">
+            <h2 class="section_title">Our Core Values</h2>
+            <div class="values_grid">
+                <div class="value_item">
+                    <div class="value_icon">
+                        <i class="fa fa-diamond"></i>
+                    </div>
+                    <h3>Quality First</h3>
+                    <p>We never compromise on quality. Every product undergoes rigorous testing to ensure it meets our high standards of durability, comfort, and performance. From premium fabrics to innovative designs, we're committed to delivering excellence in every stitch.</p>
+                </div>
+                <div class="value_item">
+                    <div class="value_icon">
+                        <i class="fa fa-lightbulb-o"></i>
+                    </div>
+                    <h3>Innovation & Style</h3>
+                    <p>We're constantly pushing boundaries, embracing new technologies and trends to bring you cutting-edge fitness wear. Our design team works tirelessly to create products that are both functional and fashion-forward, helping you stand out while staying comfortable.</p>
+                </div>
+                <div class="value_item">
+                    <div class="value_icon">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <h3>Customer-Centric</h3>
+                    <p>Your journey is our priority. We're dedicated to providing exceptional service, personalized recommendations, and a seamless shopping experience. Your feedback shapes our future, and your success stories inspire us to do better every day.</p>
+                </div>
+                <div class="value_item">
+                    <div class="value_icon">
+                        <i class="fa fa-leaf"></i>
+                    </div>
+                    <h3>Sustainability</h3>
+                    <p>We're committed to reducing our environmental footprint. From eco-friendly packaging to sustainable manufacturing processes, we're working towards a greener future while maintaining the quality you expect.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="journey_section">
+            <h2 class="section_title">Our Journey</h2>
+            <div class="timeline">
+                <div class="timeline_item">
+                    <div class="timeline_year">2020</div>
+                    <div class="timeline_content">
+                        <h3>The Beginning</h3>
+                        <p>Started with a vision to revolutionize fitness fashion</p>
+                    </div>
+                </div>
+                <div class="timeline_item">
+                    <div class="timeline_year">2021</div>
+                    <div class="timeline_content">
+                        <h3>Expansion</h3>
+                        <p>Launched in 20+ cities across India</p>
+                    </div>
+                </div>
+                <div class="timeline_item">
+                    <div class="timeline_year">2022</div>
+                    <div class="timeline_content">
+                        <h3>Innovation</h3>
+                        <p>Introduced our sustainable product line</p>
+                    </div>
+                </div>
+                <div class="timeline_item">
+                    <div class="timeline_year">2023</div>
+                    <div class="timeline_content">
+                        <h3>Growth</h3>
+                        <p>Reached 10,000+ happy customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="community_section">
+            <h2 class="section_title">Join Our Community</h2>
+            <div class="community_content">
+                <p>Be part of something bigger. Join our growing community of fitness enthusiasts, fashion lovers, and wellness seekers. Share your journey, inspire others, and be inspired.</p>
+                <div class="community_stats">
+                    <div class="community_stat">
+                        <span class="stat_number">50K+</span>
+                        <span class="stat_label">Social Media Followers</span>
+                    </div>
+                    <div class="community_stat">
+                        <span class="stat_number">1000+</span>
+                        <span class="stat_label">Success Stories</span>
+                    </div>
+                    <div class="community_stat">
+                        <span class="stat_number">24/7</span>
+                        <span class="stat_label">Customer Support</span>
+                    </div>
+                </div>
+                <a href="contact.html" class="join_btn">Join Us Today</a>
+            </div>
+        </div>
+    </div>
+</div>
+<p class="footer_copyright">Copyright 2024-FitFreaks</p>
+</body>
+</html>
